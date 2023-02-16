@@ -391,22 +391,6 @@ background-size: 10000px;
   left:520px;
 }
 
-.startshadow {
-  position: absolute;
-  
-  
-   -webkit-animation: fadeinout 10s infinite;
-  animation: fadeinout 10s infinite;
-}
-    
-  @-webkit-keyframes fadeinout {
-  0%,100% { opacity: 0; }
-  50% { opacity: 1; }
-}
-    
-  @keyframes fadeinout {
-    0%,100% { opacity: 0; }
-    50% { opacity: 1; }
-}
+
 
 
