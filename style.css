@@ -1,3 +1,4 @@
+/* Darkest Opacity Text */
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 4px;
@@ -7,6 +8,7 @@ h1 {
   line-height: 0.1px;
 }
 
+/* Lighter Opacity Text */
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 4px;
@@ -16,6 +18,7 @@ h2 {
   line-height: 0.1px;
 }
 
+/* Lightest Opacity Text */
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 4px;
@@ -25,6 +28,7 @@ h3 {
   line-height: 0.2px;
 }
 
+/* ?????? */
 a { 
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 4px;
@@ -34,14 +38,12 @@ a {
   line-height: 0.2px;
 }
 
+/* In praise text */
 #one {
     position: absolute;
     top: 10px;
     left: 400px;
 }
-
-
-/* In prase text */
 
 #two {
     position: absolute;
@@ -146,24 +148,28 @@ a {
     left: 230px;
 }
 
+/* Title "OF SHADOWS"  */
 #titlestill {
     position: absolute;
     top:500px;
     left:460px;
 }
 
+/* Author Title */
 #author {
     position: absolute;
     top:900px;
     left:345px;
 }
 
+/* Author Title Shadow */
 #author1 {
     position: absolute;
     top:935px;
     left:345px;
 }
 
+/* Title + Author hovers */
 #titlestill:hover {
 color: rgba(255, 255, 255, 0.644);
 -webkit-transition: color 2s ease-out;
@@ -191,15 +197,21 @@ color: rgba(255, 255, 255, 0.099);
 transition: color 2s ease-out;
 }
 
+/* All of "IN PRAISE" grouped together */
 div {
 position: relative;
 top:70px;
 }
 
+Background
 body {
 background-image: url('images/shadowcursor.png');
-background-size: 10000px;
-  }
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+/* Fading "IN PRAISE" Animations */
+  */
 
 #one {
     -webkit-animation: fadeinout 10s infinite;
@@ -379,6 +391,7 @@ background-size: 10000px;
   50% { opacity: 1; }
 }
 
+/* Button "NEXT PAGE" Animation in */
 .button {     
   background-color: transparent;
   width: 360px;
@@ -390,7 +403,4 @@ background-size: 10000px;
   top:580px;
   left:520px;
 }
-
-
-
 

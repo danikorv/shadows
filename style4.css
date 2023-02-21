@@ -1,0 +1,528 @@
+
+/* Shadow Button */
+.button1 {
+        background-color: transparent;
+        width: 440px;
+        height: 500px;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+        position: absolute;
+        top:1000px;
+        left:700px;
+        -webkit-animation: fadeinout 10s infinite;
+        animation: fadeinout 10s infinite;
+    }
+
+/* Darkest Opacity Text */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 2.1vw;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 0.1px;
+  }
+  
+  /* Lighter Opacity Text */
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 2.1vw;
+    color: rgba(0, 0, 0, 0.3);
+    line-height: 0.1px;
+  }
+  
+  /* Lightest Opacity Text */
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 2.1vw;
+    color: rgba(0, 0, 0, 0.1);
+    line-height: 0.2px;
+  }
+  
+  /* ?????? */
+  a { 
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 2.1vw;
+    color: rgba(0, 0, 0, 0.1);
+    line-height: 0.2px;
+  }
+  
+  /* In praise text */
+  #one {
+      position: absolute;
+      top: 10px;
+      left: 400px;
+  }
+  
+  #two {
+      position: absolute;
+      top: 20px;
+      left: 300px;
+  }
+  
+  #three {
+      position: absolute;
+      top: 40px;
+      left: 340px;
+  }
+  
+  #four {
+      position: absolute;
+      top: 30px;
+      left: 500px;
+  }
+  
+  #five {
+      position: absolute;
+      top: 60px;
+      left: 200px;
+  }
+  
+  #six {
+      position: absolute;
+      top:40px;
+      left: 100px;
+  }
+  
+  #seven {
+      position: absolute;
+      top:70px;
+      left: 400px;
+  }
+  
+  #eight {
+      position: absolute;
+      top:50px;
+      left: 460px;
+  }
+  
+  #nine {
+      position: absolute;
+      top:90px;
+      left: 300px;
+  }
+  
+  #ten {
+      position: absolute;
+      top:55px;
+      left: 300px;
+  }
+  
+  #eleven {
+      position: absolute;
+      top:85px;
+      left: 150px;
+  }
+  
+  
+  #twelve {
+      position: absolute;
+      top:75px;
+      left: 60px;
+  }
+  
+  #thirteen {
+      position: absolute;
+      top:60px;
+      left: 0px;
+  }
+  
+  #fourteen {
+      position: absolute;
+      top:15px;
+      left: 20px;
+  }
+  
+  #fifteen {
+      position: absolute;
+      top:20px;
+      left: 190px;
+  }
+  
+  #sixteen {
+      position: absolute;
+      top:100px;
+      left: 130px;
+  }
+  
+  #seventeen {
+      position: absolute;
+      top:120px;
+      left: 60px;
+  }
+  
+  #eighteen {
+      position: absolute;
+      top:130px;
+      left: 230px;
+  }
+  
+  /* Title "OF SHADOWS"  */
+  #titlestill {
+      position: absolute;
+      top:500px;
+      left:460px;
+  }
+  
+  /* Author Title */
+  #author {
+      position: absolute;
+      top:900px;
+      left:345px;
+  }
+  
+  /* Author Title Shadow */
+  #author1 {
+      position: absolute;
+      top:935px;
+      left:345px;
+  }
+  
+  /* Title + Author hovers */
+  #titlestill:hover {
+  color: rgba(255, 255, 255, 0.644);
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  -ms-transition: color 2s ease-out;
+  transition: color 2s ease-out;
+  }
+  
+  #author:hover {
+  color: rgba(255, 255, 255, 0.644);
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  -ms-transition: color 2s ease-out;
+  transition: color 2s ease-out;
+  }
+  
+  #author1:hover {
+  color: rgba(255, 255, 255, 0.099);
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  -ms-transition: color 2s ease-out;
+  transition: color 2s ease-out;
+  }
+  
+  /* All of "IN PRAISE" grouped together */
+  div {
+  position: relative;
+  top:70px;
+  }
+  
+  Background
+  body {
+  background-image: url('images/shadowcursor.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  }
+  
+  /* Fading "IN PRAISE" Animations */
+    */
+  
+  #one {
+      -webkit-animation: fadeinout 10s infinite;
+      animation: fadeinout 10s infinite;
+  } 
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  #two {
+      -webkit-animation: fadeinout 8s infinite;
+      animation: fadeinout 8s infinite;
+  }
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+      
+  #three {
+      -webkit-animation: fadeinout 9s infinite;
+      animation: fadeinout 9s infinite;
+  }
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  #four {
+      -webkit-animation: fadeinout 5s infinite;
+      animation: fadeinout 5s infinite;
+  }
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  #five {
+      -webkit-animation: fadeinout 3s infinite;
+      animation: fadeinout 3s infinite;
+  }
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  #six {
+      -webkit-animation: fadeinout 10s infinite;
+      animation: fadeinout 10s infinite;
+  }
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  #seven {
+      -webkit-animation: fadeinout 10s infinite;
+      animation: fadeinout 10s infinite;
+  }
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  #nine {
+      -webkit-animation: fadeinout 10s infinite;
+      animation: fadeinout 10s infinite;
+  }
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  #sixteen {
+      -webkit-animation: fadeinout 10s infinite;
+      animation: fadeinout 10s infinite;
+  }
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  #eight {
+      -webkit-animation: fadeinout 10s infinite;
+      animation: fadeinout 10s infinite;
+  }
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  #seventeen {
+      -webkit-animation: fadeinout 10s infinite;
+      animation: fadeinout 10s infinite;
+  }
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  #eighteen {
+      -webkit-animation: fadeinout 10s infinite;
+      animation: fadeinout 10s infinite;
+  }
+  
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  /* Button "NEXT PAGE" Animation in */
+  .button {     
+    background-color: transparent;
+    width: 360px;
+    height: 310px;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    position: absolute;
+    top:580px;
+    left:520px;
+  }
+  
+  .scattered-text1 {
+    position: relative;
+    top:200px;
+    left: 200px;
+    }
+
+    .scattered-text2 {
+        position: relative;
+        top:400px;
+        left: 400px;
+        }
+
+        .scattered-text3 {
+            position: relative;
+            top:500px;
+            left: 400px;
+            }
+.scattered-text4 {
+position: relative;
+top:300px;
+    left: 300px;
+             }
+             
+.scattered-text5 {
+position: relative;
+top:100px;
+left: 300px;
+}
+  
+
+
+
+
+
+                    /* Shadow Animations */
+.shadow {
+    position:absolute;
+    top: 200px;
+    left: 1px;
+     -webkit-animation: fadeinout 12s infinite;
+    animation: fadeinout 12s infinite;
+}
+      
+    @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+      
+    @keyframes fadeinout {
+      0%,100% { opacity: 0; }
+      50% { opacity: 1; }
+}
+
+.shadow1 {
+    position: absolute;
+    top: 130px;
+    left: 1000px;
+     -webkit-animation: fadeinout 10s infinite;
+    animation: fadeinout 10s infinite;
+}
+      
+    @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+      
+    @keyframes fadeinout {
+      0%,100% { opacity: 0; }
+      50% { opacity: 1; }
+}
+
+.shadow2 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+     -webkit-animation: fadeinout 6s infinite;
+    animation: fadeinout 6s infinite;
+}
+      
+    @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+      
+    @keyframes fadeinout {
+      0%,100% { opacity: 0; }
+      50% { opacity: 1; }
+}
+
+.shadow3 {
+    position: absolute;
+    top: 500px;
+    left: 800px;
+     -webkit-animation: fadeinout 4s infinite;
+    animation: fadeinout 4s infinite;
+}
+      
+    @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+      
+    @keyframes fadeinout {
+      0%,100% { opacity: 0; }
+      50% { opacity: 1; }
+}

@@ -143,16 +143,15 @@
 
 /* Shadow Button */
 .button1 {
-    background-color: transparent;
-    width: 440px;
-    height: 500px;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    position: absolute;
-    top:880px;
-    left:700px;
-    -webkit-animation: fadeinout 10s infinite;
-    animation: fadeinout 10s infinite;
-}
-
+        background-color: transparent;
+        width: 440px;
+        height: 500px;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+        position: absolute;
+        top:1030px;
+        left:700px;
+        -webkit-animation: fadeinout 10s infinite;
+        animation: fadeinout 10s infinite;
+    }
